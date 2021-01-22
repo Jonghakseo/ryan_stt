@@ -1,0 +1,18 @@
+{
+  "name": "ryanstt",
+  "productName": "녹취록 작성기",
+  "version": "1.0.1",
+  "description": "녹취록 작성기 by Ryan",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Ryan",
+    "email": "unqocn@gmail.com",
+    "url": "https://nookpi.tistory.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
